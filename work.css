@@ -1,0 +1,135 @@
+
+.body{
+    margin:0;
+    min-height:100%;
+}
+.body-background{
+    margin:0;
+    background-color: rgb(200, 197, 197,0.5);
+}
+.container{
+    background-image:url("space.jpg");
+    background-position: center;
+    background-size: cover;
+    padding:2px;
+    display:block;
+    
+}
+.container-change{
+    display:block;
+    background-position: center;
+    background-size: cover;
+    padding:2px;
+    
+}
+
+.dash-icon,.cross-icon{
+    font-size: 40px;
+    margin-bottom:2px;
+    padding-left:4px;
+}
+
+.intro{
+    margin-bottom:1px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(211, 207, 207, 0.5);
+    padding:3px;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+
+.intro-hide{
+    display: none;
+}
+
+h7{
+    margin-top:20px;
+    font-size: 30px;
+    
+}
+.bottom{
+    font-size:30px;
+    font-weight: bold;
+    padding-top:90px;
+
+}
+
+p#name{
+    margin-top:152px;
+    font-size:50px;
+    
+}
+#edu{
+   padding-top:3px;
+}
+p#edu,p#work{
+    font-size: 20px;
+    margin-top:1px;
+    
+}
+
+.foam{
+
+   display:none;
+    visibility: hidden;
+}
+
+
+
+.foam-display{
+    display:block;
+    position: relative;
+    margin-top:0;
+   z-index:0;
+    text-align:center;
+   align-items: center;
+   justify-content: center;
+   visibility: visible;
+   padding:45px;
+   
+   
+}
+
+
+div #page{
+    display:block;
+    
+    padding:20px;
+    font-size:50px;
+    background-color:rgb(243, 241, 241,0.9);
+    
+}
+
+
+
+
+a{
+    
+    font-size:100px;
+    padding:3px;
+    color:black;
+}
+
+
+.down-icon{
+
+    font-size:40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px;
+   margin-top:8px;
+    
+}
+.down-icon:hover{
+    font-size:50px;
+    padding-top:1px;
+    margin-top:1px;
+    
+}
+
+
